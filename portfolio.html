@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nardeen Kayser</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        /* Banner styling */
+        .banner {
+            background: url('portfolio-banner.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+            font-size: 36px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-bottom: 5px solid #ff6f61;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Navigation menu styling */
+        nav {
+            text-align: center;
+            margin-top: 20px;
+            background-color: #ff6f61;
+            padding: 15px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            color: #ff6f61;
+            background-color: white;
+        }
+
+        /* Content Section */
+        section {
+            padding: 40px 20px;
+            margin: 0 15px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            color: #ff6f61;
+            font-size: 32px;
+            margin-bottom: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            background-color: #fff5f5;
+            border-left: 5px solid #ff6f61;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            position: relative;
+            padding-left: 50px;
+        }
+
+        li:hover {
+            background-color: #ffebeb;
+            transform: translateY(-5px);
+        }
+
+        .icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: #ff6f61;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            max-width: 60%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+                padding: 10px;
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            .icon {
+                font-size: 20px;
+                left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Banner -->
+    <div class="banner">
+        Portfolio
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About Me</a> |
+        <a href="teaching-philosophy.html">Teaching Philosophy</a> |
+        <a href="courses.html">Courses</a> |
+        <a href="portfolio.html">Portfolio</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Content Section -->
+    <section>
+        <h1>Portfolio Highlights</h1>
+        <p>Explore some of the standout achievements and projects from my career as an educator and Food Technology specialist:</p>
+        <ul>
+            <li>
+                <span class="icon">📚</span>
+                <strong>Curriculum Development:</strong> I have designed and implemented a comprehensive curriculum for Food Technology courses, tailored to meet the needs of diverse learners.
+            </li>
+            <li>
+                <span class="icon">🎓</span>
+                <strong>Student Projects:</strong> My students have completed a variety of projects, including food safety campaigns, cooking demonstrations, and community outreach programs.
+            </li>
+            <li>
+                <span class="icon">🏆</span>
+                <strong>Workshops and Seminars:</strong> I have conducted numerous workshops and seminars for educators, focusing on innovative teaching strategies and curriculum development.
+            </li>
+            <li>
+                <span class="icon">📝</span>
+                <strong>Publications:</strong> I have contributed articles to educational journals on topics related to food technology and teaching methodologies.
+            </li>
+        </ul>
+        <div class="image-container">
+            <img src="chuttersnap-Ay5VDmOaKBo-unsplash.jpg" alt="Portfolio Sample">
+        </div>
+    </section>
+
+</body>
+</html>
